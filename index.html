@@ -37,8 +37,8 @@
                                 required>
                         
                         <label for="multiple-choice"> Jenis Perlombaan </label>
-                        <br><input type="radio" name="entry.341280249" id="multiple-choice" data-name="multiple-choice" value="Business Plan" required>Business Plan<br/>
-                        <br><input type="radio" name="entry.341280249" id="multiple-choice" data-name="multiple-choice" value="Innovation Competition" required>Innovation Competition<br/>
+                        <br><input type="radio" name="entry.341280249" id="multiple-choice" data-name="multiple-choice" value="Business Plan" style="cursor: pointer;" required>Business Plan<br/>
+                        <br><input type="radio" name="entry.341280249" id="multiple-choice" data-name="multiple-choice" value="Innovation Competition" style="cursor: pointer;"  required>Innovation Competition<br/>
                         
                         <label for="Judul"> Judul Karya </label>
                         <input  placeholder="Masukkan judul karya"
@@ -239,7 +239,7 @@
                     </fieldset>
         
                     <fieldset>
-                            <button type="submit" id="contact-submit">Submit</button>
+                            <button type="submit" id="contact-submit" class='submit-button'>Submit</button>
                     </fieldset>
                 </form>
             </div>
@@ -247,5 +247,51 @@
         
         <script src="javascript/index.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+        <!-- Dibawah ini script buat firebase (deployment) -->
+        <script type="module">
+
+                // Import the functions you need from the SDKs you need
+              
+                import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
+              
+                import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js";
+              
+                // TODO: Add SDKs for Firebase products that you want to use
+              
+                // https://firebase.google.com/docs/web/setup#available-libraries
+              
+              
+                // Your web app's Firebase configuration
+              
+                // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+              
+                const firebaseConfig = {
+              
+                  apiKey: "AIzaSyBhUULo0PK67OLGmYi3mg1R8k03a_WaxMw",
+              
+                  authDomain: "register-in-move.firebaseapp.com",
+              
+                  projectId: "register-in-move",
+              
+                  storageBucket: "register-in-move.appspot.com",
+              
+                  messagingSenderId: "462503679420",
+              
+                  appId: "1:462503679420:web:eeb6ce1699242e4d4d47b9",
+              
+                  measurementId: "G-NSMZ6W3D1Z"
+              
+                };
+              
+              
+                // Initialize Firebase
+              
+                const app = initializeApp(firebaseConfig);
+              
+                const analytics = getAnalytics(app);
+              
+              </script>
     </body>
 </html>

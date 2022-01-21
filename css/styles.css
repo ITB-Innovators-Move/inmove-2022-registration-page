@@ -22,7 +22,7 @@ a {
     color: white;
     text-align: center;
 }
-  
+
 .top-wrapper h1 {
     font-size: 45px;
     letter-spacing: 2px;
@@ -56,19 +56,19 @@ fieldset {
     margin: 30px auto 10px auto;
     width: 50%;
 }
- 
+
 legend {
-    background: rgb(82, 33, 68); 
+    background: rgb(82, 33, 68);
     color: #FFFFFF;
     margin-bottom: 10px;
     padding: 0.5em 1em;
     font-size: 15px;
     font-weight: 600;
 }
- 
- 
+
+
 /* DESAIN INPUT FIELD */
- 
+
 label {
     color: #ffffff;
     display: block;
@@ -76,7 +76,7 @@ label {
     font-weight: 500;
     margin-bottom: 5px;
 }
- 
+
 input {
     background-color: rgb(9, 2, 18);
     border: none;
@@ -92,7 +92,7 @@ input[type="radio"] {
     width: 10%;
     margin-bottom: 30px;
 }
- 
+
 input:focus {
     border-bottom: 1px solid rgb(82, 33, 68);
     outline: none;
@@ -103,16 +103,16 @@ header {
     height: 65px;
     width: 100%;
     background-color: rgb(18, 10, 31);
-    position :fixed;
+    position: fixed;
     top: 0;
     z-index: 10;
 }
-  
+
 .header-right {
     float: right;
     margin-right: -25px;
 }
-  
+
 .header-right a {
     line-height: 65px;
     padding: 0 25px;
@@ -121,7 +121,23 @@ header {
     float: left;
     transition: all 0.5s;
 }
-  
+
 .header-right a:hover {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.submit-button {
+    cursor: pointer;
+    background: rgb(82, 33, 68);
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    padding: 0.5em 1em;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s ease all;
+}
+
+.submit-button:hover {
+    background: rgb(110, 45, 92);
 }
