@@ -1,3 +1,7 @@
+function redirect() {
+    window.location.href = 'success.html'
+}
+
 function postToGoogle() {
     var NamaTim = $("#NamaTim").val();
     var JenisLomba = $("#multiple-choice").val();
@@ -74,12 +78,11 @@ function postToGoogle() {
     },
     error: function (x, y, z) {
         $('#registration').trigger('reset');
+    },
+    complete: function (d) {
+        redirect();
     }
     });
     
     return false;
-}
-
-function redirect() {
-    window.location.href = "success.html";  
 }
