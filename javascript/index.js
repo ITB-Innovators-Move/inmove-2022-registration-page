@@ -32,6 +32,8 @@ function postToGoogle() {
     var EmailAnggota4 = $("#EmailAnggota4").val();
     var JurusanAnggota4 = $("#JurusanAnggota4").val();
 
+    var LinkGoogleDrive = $("#LinkGoogleDrive").val();
+
     $.ajax({
     url: "https://docs.google.com/forms/u/1/d/e/1FAIpQLScJGXaUDsP8eSCdeWI8WgIYEi1hGdjYqGV7c9Oy07AhV0yq4A/formResponse",
     data: {
@@ -63,6 +65,7 @@ function postToGoogle() {
         "entry.2092183236": WAAnggota4,
         "entry.305481678": EmailAnggota4,
         "entry.1470841958": JurusanAnggota4,
+        "entry.252542647": LinkGoogleDrive
     },
     type: "POST",
     dataType: "xml",
@@ -78,5 +81,5 @@ function postToGoogle() {
 }
 
 function redirect() {
-    window.location.href="success.html";  
+    window.location.href = "success.html";  
 }
