@@ -84,6 +84,12 @@ input:focus {
     outline: none;
 }
 
+.isrequired {
+    font-size: 10px;
+    color: rgb(133, 52, 110);
+}
+
+
 .submit-button {
     font-family: Poppins;
     cursor: pointer;
