@@ -36,21 +36,8 @@ a {
     color: white;
 }
 
-/* fieldset {
-    border:2px solid white;	
-    border-radius:8px;
-    text-decoration: none;
-    margin: 10px 0 30px 0;
-    width: 50%;
-}
-
-legend {
-    padding: 0 20px 0 20px;
-} */
-
 fieldset {
     border: 1px solid #DDDDDD;
-    /*display: inline-block;*/
     font-size: 14px;
     padding: 1em 2em;
     margin: 30px auto 10px auto;
@@ -68,7 +55,6 @@ legend {
 
 
 /* DESAIN INPUT FIELD */
-
 label {
     color: #ffffff;
     display: block;
@@ -148,6 +134,6 @@ header {
 /* FOOTER */
 footer {
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     background-color: rgb(9, 2, 18);
 }
