@@ -29,7 +29,8 @@ a {
 }
 
 .top-wrapper a {
-    background-color: rgb(82, 33, 68);
+    /*background-color: rgb(82, 33, 68);*/
+    background-image: linear-gradient(60deg, rgb(82, 33, 68), rgb(25, 6, 51));
     color: rgb(255, 255, 255);
     font-weight: 600;
     border-radius: 50px;
