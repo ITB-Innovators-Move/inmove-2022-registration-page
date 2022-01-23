@@ -100,11 +100,16 @@ input:focus {
     outline: none;
 }
 
+.notes {
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    margin-top: 8px;
+}
+
 .isrequired {
     font-size: 10px;
     color: rgb(133, 52, 110);
 }
-
 
 .submit-button {
     font-family: Poppins;
