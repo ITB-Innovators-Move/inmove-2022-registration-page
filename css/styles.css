@@ -37,6 +37,10 @@ a {
     padding: 0.7em 2em;
 }
 
+.top-wrapper a:hover {
+    background-image: linear-gradient(60deg, rgb(59, 25, 50), rgb(18, 5, 37));
+}
+
 .form-wrapper {
     padding: 10px 50px 10px 50px;
     background-color: rgb(9, 2, 18);
