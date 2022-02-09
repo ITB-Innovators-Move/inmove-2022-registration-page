@@ -4,6 +4,7 @@ function redirect() {
 
 function postToGoogle() {
     var NamaTim = $("#NamaTim").val();
+    // var JenisLomba = $("#multiple-choice").val();
     var JenisLomba = $("#dropdown").val();
     var Judul = $("#Judul").val();
     var NamaKetua = $("#NamaKetua").val();
@@ -37,7 +38,6 @@ function postToGoogle() {
     var JurusanAnggota4 = $("#JurusanAnggota4").val();
 
     var LinkGoogleDrive = $("#LinkGoogleDrive").val();
-    var ReferralCode = $("#ReferralCode").val();
 
     $.ajax({
     url: "https://docs.google.com/forms/u/1/d/e/1FAIpQLScJGXaUDsP8eSCdeWI8WgIYEi1hGdjYqGV7c9Oy07AhV0yq4A/formResponse",
@@ -70,8 +70,7 @@ function postToGoogle() {
         "entry.2092183236": WAAnggota4,
         "entry.305481678": EmailAnggota4,
         "entry.1470841958": JurusanAnggota4,
-        "entry.252542647": LinkGoogleDrive,
-        "entry.732150683": ReferralCode
+        "entry.252542647": LinkGoogleDrive
     },
     type: "POST",
     dataType: "xml",
