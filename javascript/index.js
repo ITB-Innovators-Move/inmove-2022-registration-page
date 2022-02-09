@@ -4,7 +4,8 @@ function redirect() {
 
 function postToGoogle() {
     var NamaTim = $("#NamaTim").val();
-    var JenisLomba = $("#multiple-choice").val();
+    // var JenisLomba = $("#multiple-choice").val();
+    var JenisLomba = $("#dropdown").val();
     var Judul = $("#Judul").val();
     var NamaKetua = $("#NamaKetua").val();
     var NIMKetua = $("#NIMKetua").val();

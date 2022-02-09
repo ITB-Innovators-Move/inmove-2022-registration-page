@@ -165,3 +165,13 @@ footer {
     padding-bottom: 30px;
     background-color: rgb(9, 2, 18);
 }
+
+.dropdown{
+    background-color: rgb(9, 2, 18);
+    color: white;
+    padding: .4rem 3rem;
+    font-size: 15px;
+    text-align: left;
+    cursor: pointer;
+    
+}
